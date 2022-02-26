@@ -1,6 +1,6 @@
 # Wyjaśnienie
 
-W aplikacji specjalnie nie wykorzystałem żadnych bibliotek CSS takich jak tailwind, boostrap czy MUI, aby pokazać, że potrafię w pewnym stopniu stworzyć szkielet aplikacji bez dodatkowych narzędzi. Aplikację stworzyłem na podstawie metodologi atomic design. Do aplikacji wykorzystałem dodatkwoo React Router.
+W aplikacji specjalnie nie wykorzystałem żadnych bibliotek CSS takich jak tailwind, boostrap czy MUI, aby pokazać, że potrafię w pewnym stopniu stworzyć szkielet aplikacji bez dodatkowych narzędzi. Aplikację stworzyłem na podstawie metodologi atomic design. Do aplikacji wykorzystałem dodatkwoo React Router. W komponentach brakuje molecules, ze względu, że nie rozwijałem atomów. Funkcje w LoginPage/RegistrationPage przyjmują typ any, tylko dlatego, bo są podglądowe
 
 
 # Getting Started with Create React App
