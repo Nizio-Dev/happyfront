@@ -1,0 +1,12 @@
+@import './components/utility/colors';
+
+html, body, #root, .App{
+    height: 100%;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+}
+
+
+@font-face {
+    font-family: "Lato";
+    src: url("./assets/fonts/Lato-Regular.ttf") format("truetype");
+}

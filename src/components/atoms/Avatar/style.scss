@@ -1,0 +1,18 @@
+@import '../../utility/colors';
+@import '../../utility/shadows';
+
+.avatar{
+
+    padding: 0.25rem;
+    background-color: $primary-lighter;
+    box-shadow: $flat-shadow;
+    border-radius: 1rem;
+
+    .avatar-image{
+        display: block;
+        width: 100px;
+        height: 100px;
+        border-radius: inherit;
+    }
+
+}

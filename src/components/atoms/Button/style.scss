@@ -1,0 +1,23 @@
+@import '../../utility/colors';
+@import '../../utility/shadows';
+
+$button-color: $primary-darker;
+
+.btn{
+    border: none;
+    background-color: $button-color;
+    padding:0.3rem 1rem;
+    box-shadow: $flat-shadow;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s;
+
+    &:hover{
+        background-color: darken($button-color, 5);
+    }
+
+    &-small{
+        width: 90px;
+    }
+
+}
